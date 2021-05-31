@@ -71,6 +71,11 @@ p{
     width: 80%;
 }
 
+.link{
+    color: black;
+    text-decoration: none;
+}
+
 // Nav--Footer //
 
 .navbar{
@@ -194,7 +199,7 @@ footer{
     }
     
     .parrf-section{
-        margin-left: 5em;
+        margin-left: 2em;
         margin-top: 2em;
         margin-bottom: 2em;
         width: 80%;
@@ -215,6 +220,10 @@ footer{
     }
     
     // Botones //
+
+    .detail{
+        padding: 0em;
+    }
     
     .btn-outline-success{
         color: white;
@@ -222,16 +231,15 @@ footer{
     }
     
     .btn{
-        margin-left: 2em;
         margin-bottom: 1em;
     }
     
     .btn-register{
-        margin: 3em;
+        margin: 2em;
     }
     
     .btn-confirm{
-        margin-left: 3em;
+        
         margin-top: 2em;
     }
     
@@ -307,7 +315,6 @@ footer{
 
     .detail{
         padding: 4em 6em;
-        margin-left: 2em;
         text-align: center;
     }
 
@@ -321,24 +328,20 @@ footer{
         margin: 0em;
     }
 
-    .btn-register{
-        margin-left: 15em;
-    }
-
     .related{
         padding: 2em;
         width: 98%;
     }
 
     .form{
-        height: 20em;
+        height: 28em;
         margin: auto;
         padding: 4em;
     }
 
     .btn-confirm{
         margin: auto;
-        padding: 2em 12em;
+        padding: 2em;
     }
 
     .form-conf{
